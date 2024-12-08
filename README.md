@@ -24,3 +24,13 @@ There are few function using which we can draw pattern in raylib. e.g.
 - void DrawLine(int startPosX,int startPosY,int endPosX,int endPosY, Color color)
 - void DrawPoly(Vector2 center,int sides,float radius, float rotation,Color color)
 - ETC
+
+## There are 7 shapes in tetris
+
+- L - Block
+- J - Block
+- I - Block
+- O - Block
+- S - Block
+- T - Block
+- Z - Block
