@@ -34,3 +34,11 @@ There are few function using which we can draw pattern in raylib. e.g.
 - S - Block
 - T - Block
 - Z - Block
+
+That mean there are 7 classes derived from the block-Class.
+
+## Game Class
+
+- It will be a container for all the elements of out game.
+- Code will be easier to understand, maintain, expand.
+- Code will be easier to read. Bugs can't easily hide.

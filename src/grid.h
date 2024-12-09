@@ -11,6 +11,8 @@ public:
     void Initialize();
     void Print();
     void Draw();
+
+    bool IsCellOutSide(int row, int column);
     int grid[20][10];
 
 private:
