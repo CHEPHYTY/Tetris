@@ -11,7 +11,7 @@ Block::Block()
 
 void Block::Draw()
 {
-    std::vector<Position> tiles = GetCellPosition();
+    std::vector<Position> tiles = GetCellPositions();
 
     for (Position item : tiles)
     {
@@ -25,7 +25,7 @@ void Block::Move(int rows, int columns)
     columnOffset += columns;
 }
 
-std::vector<Position> Block::GetCellPosition()
+std::vector<Position> Block::GetCellPositions()
 {
     std::vector<Position> tiles = cells[rotationState];
     std::vector<Position> movedTiles;
